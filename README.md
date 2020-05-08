@@ -11,11 +11,15 @@ Features:
 - then another COM port with [1eaf:0002] is used for program upload.
 
 Usage:
+
 cdc_flasher <binary_file> <serial_com_prt> <page_size_in_kb>
 
 wherein:
+
 <binary_file> = name of the binary file to flash including absolute path
+
 <serial_com_port> = USB serial port where the device can communicate with the host
+
 <page_size_in_kb> = indicates the size of a page to be flashed. 1 for F1, and 2 for F3.
 
 The flasher tries to generate a reset over the given serial com port.
