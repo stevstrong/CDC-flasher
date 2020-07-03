@@ -1,5 +1,6 @@
 # CDC-flasher
-A command line utility to upload user program using the CDC bootloader.
+A command line utility to upload user program using the CDC bootloader: https://github.com/stevstrong/STM32-CDC-Bootloader.
+
 Currently only Windows is supported as platform.
 
 
